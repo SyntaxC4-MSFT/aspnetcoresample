@@ -12,3 +12,9 @@ $ sh setup.sh <resource-group-name> <resource-group-location> <app-name> <docker
 | resource-group-location | WestUS |
 | app-name | MyASPNetCoreApp |
 | docker-container-name | cfowler/aspnetcoresample:0.1 |
+
+## Remove
+
+```shell
+$ sh remove.sh <resource-group-name>
+```
