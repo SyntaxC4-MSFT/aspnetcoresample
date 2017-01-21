@@ -41,7 +41,7 @@ namespace KestrelDemo
                         options.ThreadCount = int.Parse(config["threadCount"]);
                     }
                 })
-                .UseUrls("http://localhost:5000");
+                .UseUrls("http://*:80");
 
             var host = builder.Build();
             host.Run();

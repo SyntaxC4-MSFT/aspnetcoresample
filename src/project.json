@@ -23,8 +23,7 @@
         },
         "System.Console": "4.3.0"
       }
-    },
-    "net451": {}
+    }
   },
 
   "publishOptions": {
