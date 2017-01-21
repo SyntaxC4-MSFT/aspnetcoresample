@@ -10,5 +10,5 @@ $ sh setup.sh <resource-group-name> <resource-group-location> <app-name> <docker
 |---|---|
 | resource-group-name | ASPNetCoreDemo |
 | resource-group-location | WestUS |
-| app-name | MyFirstASPNetCoreApp |
-| docker-container-name | microsoft\aspnetcore |
+| app-name | MyASPNetCoreApp |
+| docker-container-name | cfowler/aspnetcoresample:0.1 |
